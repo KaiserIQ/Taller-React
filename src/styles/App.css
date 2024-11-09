@@ -1,0 +1,53 @@
+.App {
+    text-align: center;
+  }
+  
+  .header, .footer {
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+  }
+  
+  .nav {
+    margin: 20px 0;
+  }
+  
+  .profile-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .login-form input {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  .user-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+
+
+  .nav-links {
+    display: flex;
+    gap: 20px; /* Espacio entre cada enlace */
+    justify-content: center; /* Centrar los enlaces horizontalmente */
+    padding: 10px 0; /* Espacio alrededor de la navegación */
+}
+
+.link {
+    text-decoration: none;
+    color: #333; /* Cambia el color según tu preferencia */
+    font-size: 18px;
+}
+
+/* Opcional: Agrega un efecto hover */
+.link:hover {
+    color: #007acc; /* Cambia el color al pasar el cursor */
+}
